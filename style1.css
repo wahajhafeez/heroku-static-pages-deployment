@@ -1,0 +1,48 @@
+
+body{
+	background: rgb(36, 91, 100);
+	color: yellow;
+}
+.heading{
+	text-align: center;
+}
+h2 ul{
+	
+	list-style: none;
+}
+aside{
+	float: right;
+	
+	
+}
+.wrap{
+	min-width: 100px;
+}
+.heading{
+	color:yellow;
+	background:black;
+	
+	
+}
+.reg {
+	min-width: 10px;
+	color:yellow;
+	background:black;
+	text-align: left;
+	margin:10vh;
+	text-align: left;
+
+}
+.per{
+	float: left;
+}
+aside form li{
+	list-style: none;
+	padding-right: 50px;
+	margin-bottom: 20px;
+}
+textarea{
+	height: 15px;
+	width: 200px;
+
+}

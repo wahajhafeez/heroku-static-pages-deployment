@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./style1.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="heading">
+        <h1>Assignment-1</h1>
+        <h2>Web Technologies</h2>
+        
+      </div>
+      <h2>
+        <div class="reg">
+        <ul>
+          <li>Wahaj Hafeez</li>
+          <li id="rn">SP18-BCS-007</li>
+        </ul>
+      </div>
+      </h2>
+      <aside>
+        <h3>Add/update Person Form</h3>
+        <form action="" method="">
+          <ul>
+            <li>
+              <label for="name">Name:</label>
+              <input id="nameField" type="text" id="name" />
+            </li>
+            <li>
+              <label for="age">Age:</label>
+              <input id="ageField" type="text" id="age" />
+            </li>
+            <li>
+              <label for="city">City:</label>
+              <input id="cityField" type="text" id="city" />
+            </li>
+            <li>
+              <label>Gender:</label>
+              <input id="male" type="checkbox" for="male" />
+              <label>Male</label>
+              <input id="female" type="checkbox" for="female" />
+              <label>Female</label>
+            </li>
+            <li>
+              <input id="addButton" type="button" value="Add" />
+              <input type="Reset" value="Reset" />
+            </li>
+          </ul>
+        </form>
+      </aside>
+      <aside class="per">
+        <h3>List of persons</h3>
+        <table id="table1">
+          <tr id="row 0">
+            <th id="rowHead 0">Name</th>
+            <th id="rowHead 1">Gender</th>
+            <th id="rowHead 2">Age</th>
+            <th id="rowHead 3">City</th>
+            <th id="rowHead 4">Action</th>
+          </tr>
+        </table>
+      </aside>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
